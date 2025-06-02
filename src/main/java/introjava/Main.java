@@ -70,7 +70,7 @@ public class Main {
         JOptionPane.showMessageDialog(null, "El porcentaje del gasto es : " + porcentaje + " \n  El porcentaje disponible es : " + residuo );
         //2:01 minutos
 
-        //para git hub
+        //para git hub  sdggs
 
 
 
