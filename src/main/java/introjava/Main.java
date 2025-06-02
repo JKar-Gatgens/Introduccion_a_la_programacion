@@ -33,8 +33,6 @@ public class Main {
 //        JOptionPane.showMessageDialog(null,"El nombre de la persona es:  " + nombre +" la persona tine: " +edad+ " Resibe un salario de :"+salario);
 //        String linea1 = "Bienvenido al mundo de java \n Podras dar solucion a muchos problemas";;
 //
-////        JOptionPane.showMessageDialog(null, linea1);
-////        JOptionPane.showMessageDialog(null, linea2);
 //        JOptionPane.showMessageDialog(null, linea1 );
         // 1:49 minutos
 
