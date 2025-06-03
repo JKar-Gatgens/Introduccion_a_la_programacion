@@ -1,0 +1,46 @@
++-----------------------------+
+          Biblioteca
++-----------------------------+
+- catalogo: ArrayList<Libro>
+- usuarios: ArrayList<Usuario>
++-----------------------------+
+ + agregarLibro(libro: Libro)
+ + registrarUsuario(usuario: Usuario)
+ + listarLibrosDisponibles() 
++-----------------------------+
+
++-----------------------------+
+            Usuario
++-----------------------------+
+- nombre: String
+- apellido: String
+- id: String
+- prestamos: ArrayList<Prestamo>
++-----------------------------+
+ + realizarPrestamo(libro: Libro)
+ + devolverLibro(libro: Libro)
++-----------------------------+
+
++-----------------------------+
+            Prestamo
++-----------------------------+
+- usuario: Usuario
+- libro: Libro
+- fechaPrestamo: Date
+- fechaDevolucion: Date
++-----------------------------+
+ + calcularMulta(): double
++-----------------------------+
+
++-----------------------------+
+              Libro
++-----------------------------+
+- titulo: String
+- autor: String
+- ISBN: String
+- anioPublicacion: int
+- disponible: boolean
++-----------------------------+
+ + prestamo()
+ + devolucion()
++-----------------------------+
